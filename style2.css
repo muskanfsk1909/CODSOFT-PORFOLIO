@@ -12,7 +12,7 @@
 
 .header
 {
-    position: fixed;
+    position:sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -22,7 +22,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
+    
    
 }
 .logo
@@ -201,13 +201,81 @@ span
     font-size: 20px;
     margin: 2em 0 3em;
 }
+.heading1
+{
+    text-align: center;
+    background-color: white;
+    padding-top: 150px;
+    font-size: 30px;
+    color: black;
+}
+.div2
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:white;
+    
+}
+.div1
+{
+    height: 250px;
+    background-color: white;
+    width: 13%;
+    margin-top: 53px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 108px;
+    margin-bottom: 100px;
+    color: black;
+    transition: 0.3s ease;
+    box-shadow: 0 0 25px lightgreen;
+    border: 2px solid black;
+  }
+.div1:hover
+{
+    background-color: lightgreen;
+    cursor: pointer;
+    transform: scale(1.2) translateY(-10px);
+}
 
+.img11
+{
+    height: 194px;
+    margin-top: 31px;
+    
+}
+.img12
+{
+    height: 194px;
+    margin-top: 31px;
+    width: 195px;
+}
+.img13
+{
+    height: 220px;
+    margin-top: 15px;
+    width: 198px;
+}
+.h11
+{
+    margin-top: 106px;
+    padding-left: 44px;
+}
+.h11:hover
+{
+    text-decoration: underline; 
+}
+.contact-form
+{
+    background-color: black;
+}
 .contact-form h2
 {
     text-align: center;
     margin-top: 3em;
     margin-bottom: 1em;
     font-size: 36px;
+    color: white;
 }
 
 .contact-form form
@@ -241,6 +309,28 @@ span
     margin: 1rem 0;
     resize: none;
 }
+.btn-11
+{
+    padding: 15px 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-11:hover
+{
+    
+    background-color: lightgreen;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 0 0 25px lightgreen;
+
+}
 
 .footer
 {
@@ -248,7 +338,7 @@ span
     bottom: 0;
     width: 100%;
     padding: 40px 0;
-    background-color: black;
+    background-color: rgba(56, 48, 48, 0.438);
 }
 .footer .social
 {
@@ -276,35 +366,4 @@ span
     color:lightgreen;
     border: 2px solid lightgreen;
 }
-.footer ul
-{
-    margin-top: 0;
-    padding: 0;
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 0;
-    text-align: center;
 
-}
-
-.footer ul li a
-{
-    color: white;
-    border-bottom: 3px solid transparent;
-    transition: 0.3s ease;
-}
-.footer ul li a:hover{
-    border-bottom: 3px solid lightgreen;
-}
-.footer ul li 
-{
-    display: inline-block;
-    padding: 0 15px;
-}
-.footer .copyright
-{
-    margin-top: 15px;
-    text-align: center;
-    font-size: 12px;
-    color: white;
-}
