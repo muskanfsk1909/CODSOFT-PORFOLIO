@@ -13,17 +13,16 @@
         <a href="#" class="logo"><span>Port</span>folio</a>
 
         <nav class="navbar">
-            <a href="#" class="active">Home</a>
-            <a href="#">About</a>
-            <a href="#">Skills</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
             <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
         </nav>
 
-        <a href="#" class="contact">Contact Me</a>
+        <a href="#contact" class="contact">Contact Me</a>
     </header>
     
-     <section class="home">
+     <section class="home" id="home">
         <div class="home-content">
             <h3>Hi </h3>
             <h1>I'm <span>Muskan <br></span> a Frontend Developer</h1>
@@ -41,7 +40,7 @@
         </div>
     </section> 
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="about-img">
             <img src="image1.jpeg" alt="image">
         </div>
@@ -49,14 +48,37 @@
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
             <h3>Frontend <span>Developer</span></h3>
-            <p>I am a Frontend Developer specializing in creating visually appealing and interactive web interfaces. I turn design concepts into functional websites using HTML, CSS, and JavaScript. My focus is on delivering responsive, user-friendly experiences that work seamlessly across all devices and browsers. I am passionate about optimizing performance, debugging issues, and enhancing usability and accessibility.</p>
+            <p>
+                As an aspiring engineer, I am dedicated to leveraging my strong academic background and hands-on experience to
+                contribute effectively to engineering projects. Seeking a role or positions that provides opportunities for growth, allowing
+                me to apply my theoretical knowledge in practical settings. With a passion for problem-solving, attention to detail, and a
+                commitment to continuous learning, I aim to make a meaningful impact while refining my engineering skills in a real-world
+                environment.
+            </p>
             <a href="#" class="btn-2">EXPERIENCE</a>
         </div>
     </section>
-     <section class="contact-form">
-        <h2 class="contact-me"> Contact <span>ME</span></h2>
+    <section>
+        <h2 class="heading1" >Skills</h2>    
+        <div class="div2" id="skills">
+           
+            <div class="div1">
+                <img  class="img11"src="html.png" alt="html">
+                <!-- <h1 class="h1">HTML</h1> -->
+            </div>
+            <div class="div1">
+                <img class="img12" src="csss.png" alt="css">
+            </div>  
+            <div class="div1">
+            <img class="img13" src="js.jpg" alt="js">
+            </div>
+        </div>    
+    </section>
+     <section class="contact-form" id="contact" >
+        <form>
+        <h2 class="contact-me" > Contact <span>ME</span></h2>
 
-        <form action="#">
+        
             <div class="input-box">
                 <input type="text" placeholder="Full name " >
                 <input type="email" placeholder="Email">
@@ -68,7 +90,7 @@
             </div>
 
             <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
-            <input type="Submit" value="Send message" class="btn-1">
+            <input type="Submit" value="Send message" class="btn-11">
         </form>
 
    
@@ -79,15 +101,6 @@
             <a href="#"><i class='bx bxl-twitter'></i></a>
             <a href="#"><i class='bx bxl-instagram-alt'></i></a>
         </div>
-        <ul class="list">
-            <li><a href="">FAQ</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">About Me</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">Privacy Policy</a></li>
-        </ul>
-
-        <p class="copyright"> &copy; 2023 Muskan | All Rights Reserved</p>
     </footer>
 
     
